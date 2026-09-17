@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// fmt.Println("Hello Go!")
 	// fmt.Println("I am learnign go for backend developement.")
@@ -61,51 +59,65 @@ func main() {
 
 	//Session 3
 	//Calculator -01
-	a := 20
-	b := 6
+	// a := 20
+	// b := 6
 
-	fmt.Println(a + b)
-	fmt.Println(a - b)
-	fmt.Println(a * b)
-	fmt.Println(a / b)
-	fmt.Println(a % b)
+	// fmt.Println(a + b)
+	// fmt.Println(a - b)
+	// fmt.Println(a * b)
+	// fmt.Println(a / b)
+	// fmt.Println(a % b)
 
-	// Even/Odd -02
-	c := 19
-	if c%2 == 0 {
-		fmt.Printf("%d Is Even", c)
-	} else {
-		fmt.Printf("%d Is Odd", c)
-	}
-	fmt.Println()
-	//AgeChecker -03
-	age := 22
+	// // Even/Odd -02
+	// c := 19
+	// if c%2 == 0 {
+	// 	fmt.Printf("%d Is Even", c)
+	// } else {
+	// 	fmt.Printf("%d Is Odd", c)
+	// }
+	// fmt.Println()
+	// //AgeChecker -03
+	// age := 22
 
-	if age >= 18 {
-		fmt.Println("Access granted!")
-	} else {
-		fmt.Println("Access denied!")
-	}
+	// if age >= 18 {
+	// 	fmt.Println("Access granted!")
+	// } else {
+	// 	fmt.Println("Access denied!")
+	// }
 
-	//MemberShip -04
-	isMember := true
+	// //MemberShip -04
+	// isMember := true
 
-	if age >= 18 && isMember == true {
-		fmt.Println("Access granted!")
-	} else {
-		fmt.Println("Access denied!")
-	}
+	// if age >= 18 && isMember == true {
+	// 	fmt.Println("Access granted!")
+	// } else {
+	// 	fmt.Println("Access denied!")
+	// }
 
-	//Ticket pricing
+	// //Ticket pricing
 
-	if age < 6 {
-		println("Free")
-	} else if age >= 6 && age < 18 {
-		println("10,000")
-	} else if age >= 18 && age <= 59 {
-		println("25,000")
-	} else if age >= 60 {
-		println("15,000")
-	}
+	// if age < 6 {
+	// 	println("Free")
+	// } else if age >= 6 && age < 18 {
+	// 	println("10,000")
+	// } else if age >= 18 && age <= 59 {
+	// 	println("25,000")
+	// } else if age >= 60 {
+	// 	println("15,000")
+	// }
+
+	//Session 3 Extra
+
+	// age := 22
+	// isMember := true
+	// ticketCount := 3
+
+	// if age < 18 || !isMember {
+	// 	fmt.Println("Access Denied!")
+	// } else if ticketCount > 5 {
+	// 	fmt.Println("Too many tickets")
+	// } else {
+	// 	fmt.Println("Booking allowed!")
+	// }
 
 }
