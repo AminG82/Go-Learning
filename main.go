@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// fmt.Println("Hello Go!")
 	// fmt.Println("I am learnign go for backend developement.")
@@ -125,47 +123,48 @@ func main() {
 	//Session -04
 	//Numbers -01
 
-	for i := 1; i <= 10; i++ {
-		fmt.Println("this is", i)
-	}
+	// for i := 1; i <= 10; i++ {
+	// 	fmt.Println("this is", i)
+	// }
 
-	//Even Numbers -02
-	for i := 0; i <= 20; i += 2 {
-		fmt.Println(i, " : is Even")
-	}
+	// //Even Numbers -02
+	// for i := 0; i <= 20; i += 2 {
+	// 	fmt.Println(i, " : is Even")
+	// }
 
-	// and another way is :
-	println("*********")
+	// // and another way is :
+	// println("*********")
 
-	for i := 1; i <= 20; i++ {
-		if i%2 == 0 {
-			fmt.Println(i, " : is Even")
-		}
-	}
+	// for i := 1; i <= 20; i++ {
+	// 	if i%2 == 0 {
+	// 		fmt.Println(i, " : is Even")
+	// 	}
+	// }
 
-	//CountDown -3
-	println("*********")
-	for i := 10; i > 0; i-- {
-		fmt.Println(i)
-	}
+	// //CountDown -03
+	// println("*********")
+	// for i := 10; i > 0; i-- {
+	// 	fmt.Println(i)
+	// }
 
-	//Sum -04
-	println("*********")
+	// //Sum -04
+	// println("*********")
 
-	sum := 0
-	for i := 1; i < 101; i++ {
-		sum += i
-	}
-	fmt.Println(sum)
+	// sum := 0
+	// for i := 1; i < 101; i++ {
+	// 	sum += i
+	// }
+	// fmt.Println(sum)
 
-	//Bounes - Ticket Seats
-	println("*********")
-	capacity := 20
-	bookedSeat := 7
-	for i := 1; i <= capacity; i++ {
-		if i <= bookedSeat {
-			continue
-		}
-		fmt.Println("Seat :", i)
-	}
+	// //Bounes - Ticket Seats
+	// println("*********")
+	// capacity := 20
+	// bookedSeat := 7
+	// for i := 1; i <= capacity; i++ {
+	// 	if i <= bookedSeat {
+	// 		continue
+	// 	}
+	// 	fmt.Println("Seat :", i)
+	// }
+
 }
