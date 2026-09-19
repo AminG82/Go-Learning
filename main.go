@@ -1,5 +1,44 @@
 package main
 
+import (
+	"fmt"
+)
+
+// Session 5
+// Greeting -01
+func greet(name string) {
+	fmt.Println("Hello", name)
+}
+
+// Add -02
+func add(a int, b int) int {
+	return a + b
+}
+
+// isEven -03
+func isEven(a int) bool {
+	return a%2 == 0
+}
+
+// CalculateTotal -04
+func calculateTotal(price float64, quantity int) float64 {
+	return price * float64(quantity)
+}
+
+// Bounes
+func calculate(a int, b int) (int, int) {
+	return (a + b), (a * b)
+}
+
+func printName(name string) {
+	fmt.Println(name)
+}
+
+func multiplefunc(a int, b int) (result int) {
+	result = a * b
+	return
+}
+
 func main() {
 	// fmt.Println("Hello Go!")
 	// fmt.Println("I am learnign go for backend developement.")
@@ -166,5 +205,26 @@ func main() {
 	// 	}
 	// 	fmt.Println("Seat :", i)
 	// }
+
+	//Session 5
+	//Greeting -01
+
+	greet("amin")
+
+	fmt.Println(add(10, 20))
+
+	fmt.Println(isEven(6))
+
+	fmt.Println(calculateTotal(15.5, 2))
+
+	sum, multiple := calculate(10, 20)
+
+	fmt.Println(sum)
+	fmt.Println(multiple)
+
+	name := "Amin"
+
+	printName(name)
+	fmt.Println(multiplefunc(5, 4))
 
 }
